@@ -1,6 +1,7 @@
 ### WEB SCRAPING 
 # sugestão bauxar o selectorGadget   , ctrl + u para ver o html
-# fundos imobiliarios  - Simulação desconsiderando valorização das cotas.
+# fundos imobiliarios  - Script para a captação dos dividendos e valor da cota de cada fii para cada mês.
+# obs: Deve ser rodado no final de cada mês
 
 
 library(rvest)
