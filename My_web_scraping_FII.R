@@ -1,7 +1,7 @@
 ### WEB SCRAPING 
 # sugestão baixar o selectorGadget   , ctrl + u para ver o html
 # fundos imobiliarios  - Script para a captação dos dividendos e valor da cota de cada fii para cada mês.
-# obs: Deve ser rodado no final de cada mês
+# sugestão: Deve ser rodado no final de cada mês
 
 
 library(rvest)
@@ -9,7 +9,7 @@ library(rvest)
 # urls
 fundos<- c("hsml11/","knri11/","vrta11/","hglg11/","xpml11/", "alzr11/","xplg11")
 url <- "https://fiis.com.br/"
-urls<- paste(url, fundos, sep = "" ) # criando as urls para cada fit
+urls<- paste(url, fundos, sep = "" ) # criando as urls para cada fii
 data<-NULL
 # funcao que o preço da cota e dividendo do mes 
 f<-function(urls){
